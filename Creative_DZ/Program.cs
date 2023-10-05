@@ -49,7 +49,7 @@ namespace Creative_DZ
                 BlackEyesCount = 0;
 
             }
-            public static string[] BadWords = { "блядь", "ёкарный бабай", "пиздец", "проститутки" };
+            public static string[] BadWords = { "блядь", "ёкарный бабай", "пиздец", "охуеть" };
 
             public int CountBlackEyes(params string[] badWords)
             {
@@ -229,7 +229,7 @@ namespace Creative_DZ
             Console.WriteLine("Задание 4:");
 
             // Создать 5 дедов
-            Grandpa grandpa1 = new Grandpa("Иван", LevelOfGrouchiness.Low, new string[] { "проститутки", "гады" });
+            Grandpa grandpa1 = new Grandpa("Иван", LevelOfGrouchiness.Low, new string[] { "проститутки","охуеть", "гады" });
             Grandpa grandpa2 = new Grandpa("Петр", LevelOfGrouchiness.Medium, new string[] { "блядь", "пиздец" });
             Grandpa grandpa3 = new Grandpa("Сергей", LevelOfGrouchiness.High, new string[] { "коронавирус", "война" });
             Grandpa grandpa4 = new Grandpa("Василий", LevelOfGrouchiness.Low, new string[] { "ёкарный бабай", "дверь" });
